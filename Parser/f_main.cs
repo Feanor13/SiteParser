@@ -76,8 +76,9 @@ namespace Parser
                 urll    += i.ToString();
                 content += getRequest(urll);
             }
-
+                textBox1.Text = "!!!!!!!";
                 textBox1.Text = content;
+                
 
             /* HtmlNodeCollection c = doc.DocumentNode.SelectNodes(".//*[@id='priceForm']/div/div/div");
             foreach (HtmlNode n in c)
